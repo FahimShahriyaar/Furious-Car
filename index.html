@@ -1,0 +1,48 @@
+<!-- 
+ App: Furious Car
+Created By: Fahim Shahriyaar
+Contact: shahriyaar.flash@gmail.com 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furious Car</title>
+    <link rel="shortcut icon" href="assets/car.svg" type="assets/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <p id="creator-info">Created By: Fahim Shahriyaar</p>
+        <div class="header">
+            <div id="life" class="smallbox">
+                <img id="diamond1" class="diamond" src="assets/diamond.png" alt="diamond">
+                <img id="diamond2" class="diamond" src="assets/diamond.png" alt="diamond">
+                <img id="diamond3" class="diamond" src="assets/diamond.png" alt="diamond">
+            </div>
+            <h2>Furious Car</h2>
+            <div id="score" class="smallbox">Score: <span>0</span></div>
+        </div>
+        <div class="window">
+            <div id="way1" class="way"><img id="img1"></div>
+            <div id="way2" class="way"><img id="img2"></div>
+            <div id="way3" class="way"><img id="img3"></div>
+            <img id="img0" src="assets/carm.png">
+            <img id="imgblast" src="assets/blast.png">
+            <h1 id="msg1">Game Over</h1>
+        </div>
+        <div class="footer">
+            <p>Contact:<br>shahriyaar.flash@gmail.com</p>
+            <input type="button" id="start" value="start">
+        </div>
+    </div>
+    <audio src="assets/explosion.mp3"></audio>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</html>
